@@ -9,5 +9,5 @@ f=open("C:/Users/bpandey/.spyder-py3/src/concat.csv","r").read().split("\n")
 g=[]
 for each in f:
     g.append(each.split(","))
-for each in g:
+for each in g[0:2]:
     print(each)
